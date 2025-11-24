@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+Campus Report Hub
 
-## Project info
+A web application built using React, TypeScript, Vite, Tailwind CSS, and shadcn-ui. This project provides a modern and responsive platform for campus reporting.
 
-**URL**: https://lovable.dev/projects/38ab6bf1-00a0-4100-865c-0cfdc5f6627d
+Getting Started
 
-## How can I edit this code?
+Clone repository:
+git clone https://github.com/bryandoseonn/Campus-Report.git
 
-There are several ways of editing your application.
+Masuk ke folder proyek:
+cd Campus-Report
 
-**Use Lovable**
+Install dependencies:
+npm install
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/38ab6bf1-00a0-4100-865c-0cfdc5f6627d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Jalankan development server:
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+-Vite
 
-**Use GitHub Codespaces**
+-React
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+-TypeScript
 
-## What technologies are used for this project?
+-Tailwind CSS
 
-This project is built with:
+-shadcn-ui
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Cara Mengembangkan Proyek
+Menggunakan IDE (VSCode atau lainnya)
 
-## How can I deploy this project?
+-Buka folder project di IDE
 
-Simply open [Lovable](https://lovable.dev/projects/38ab6bf1-00a0-4100-865c-0cfdc5f6627d) and click on Share -> Publish.
+-Lakukan perubahan pada file di dalam folder src
 
-## Can I connect a custom domain to my Lovable project?
+-Commit dan push dengan perintah:
+git add .
+git commit -m "update"
+git push
 
-Yes, you can!
+Edit langsung di GitHub
+Buka file yang ingin diedit
+Klik tombol Edit (ikon pensil)
+Commit perubahan
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Project dapat dideploy pada platform hosting modern seperti Vercel, Netlify, atau Cloudflare Pages.
+
+Contoh deploy ke Vercel:
+npm i -g vercel
+vercel
+
+Struktur Folder (Ringkas)
+
+src → berisi komponen, halaman, dan logic utama
+public → berisi aset statis
+index.html → entry utama aplikasi
+vite.config.ts → konfigurasi Vite
+
+License
+
+Project bebas dimodifikasi sesuai kebutuhan.
